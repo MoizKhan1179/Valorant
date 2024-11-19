@@ -1,0 +1,217 @@
+/* Custom styles for Valorant theme */
+:root {
+    --valorant-red: #ff4655;
+    --dark-bg: #1f2326;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 76px;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--dark-bg) !important;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+}
+
+.nav-link:hover {
+    color: var(--valorant-red) !important;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    color: var(--valorant-red) !important;
+    border-bottom: 2px solid var(--valorant-red);
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+    margin-top: -2.3%;
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+.custom-btn {
+    background-color: var(--valorant-red);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 70, 85, 0.3);
+}
+
+.custom-btn-small {
+    background-color: var(--valorant-red);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-small:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(255, 70, 85, 0.3);
+}
+
+/* Featured Section */
+.featured-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--dark-bg);
+    font-weight: bold;
+}
+
+.agent-card {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.agent-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Maps Section */
+.maps-section {
+    padding: 80px 0;
+    background-color: var(--dark-bg);
+    color: white;
+}
+
+.map-card {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.map-card.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.map-card.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.map-card img {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.map-content h3 {
+    color: var(--valorant-red);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.map-content p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* News Section */
+.news-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.news-card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.news-content {
+    padding: 20px;
+}
+
+/* Image Hover Effects */
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Footer Styles */
+.footer {
+    padding: 60px 0 30px;
+    background-color: var(--dark-bg) !important;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--valorant-red);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    color: var(--valorant-red);
+    transform: translateY(-3px);
+}

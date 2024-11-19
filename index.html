@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Hub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://placehold.co/200x60/ff4655/ffffff?text=VALORANT" alt="Valorant Logo" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user-ninja"></i> Agents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-map"></i> Maps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-gun"></i> Weapons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-newspaper"></i> News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-ranking-star"></i> Rankings</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4">Welcome to Valorant Hub</h1>
+                    <p class="lead">Your ultimate destination for all things Valorant</p>
+                    <button class="custom-btn">Play for Free</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://placehold.co/600x400/ff4655/ffffff?text=VALORANT+GAMEPLAY" alt="Valorant Gameplay" class="img-fluid rounded hover-effect">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="featured-section">
+    <div class="container">
+<h2 class="section-title"><u> Agents </u></h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="agent-card">
+                    <img src="./img/jett.jpg" alt="Agent 1" class="img-fluid hover-effect" style="height: 20%; object-fit: cover;">
+                    <h3>Jett</h3>
+                    <p>Duelist</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="agent-card">
+                    <img src="./img/sage.jpg" alt="Agent 2" class="img-fluid hover-effect" style="height: 20%; object-fit: cover;">
+                    <h3>Sage</h3>
+                    <p>Sentinel</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="agent-card">
+                    <img src="./img/omen.jpg" alt="Agent 3" class="img-fluid hover-effect" style="height: 20%; object-fit: cover;">
+                    <h3>Omen</h3>
+                    <p>Controller</p>
+                </div>
+            </div>
+        </div>
+        <button class="custom-btn">View All Agents</button>
+    </div>
+</section>
+
+    <!-- Maps Section -->
+    <section class="maps-section">
+        <div class="container">
+            <h2 class="section-title" style="color: white;"><u>MAPS</u></h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="map-card fade-in">
+                        <img src="./img/sunset.jpg" alt="Sunset" class="img-fluid hover-effect">
+                        <div class="map-content">
+                            <h3>SUNSET</h3>
+                            <p>Two sites. Mechanical doors. And a new way to get the drop on your opponents.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="map-card fade-in">
+                        <img src="./img/lotus.jpg" alt="Lotus" class="img-fluid hover-effect">
+                        <div class="map-content">
+                            <h3>LOTUS</h3>
+                            <p>A mysterious structure housing an astral conduit. Great power awaits those who seek it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="map-card fade-in">
+                        <img src="./img/pearl.jpg" alt="Pearl" class="img-fluid hover-effect">
+                        <div class="map-content">
+                            <h3>PEARL</h3>
+                            <p>Attackers push down into the Defenders on this two-site map set in a vibrant, underwater city.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <button class="custom-btn float-end">View All Maps</button>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title"><u>Latest News</u></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <img src="./img/news1.jpg" alt="News 1" class="img-fluid hover-effect">
+                        <div class="news-content">
+                            <h3>Game Updates
+                                19/11/2024
+                                </h3>
+                            <p>VALORANT Patch Notes 9.10
+                                Updates to Sentinels, Controllers, and Phoenix, the addition of a Regen Shield, changes to gameplay systems, and much much more.</p>
+                            <button class="custom-btn-small">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="news-card">
+                        <img src="./img/news.jpg" alt="News 2" class="img-fluid hover-effect">
+                        <div class="news-content">
+                            <h3>15/11/2024
+                            </h3>
+                            <p>Game Changers Championship Finals this weekend!
+                               Here's how to watch VALORANT Game Changers Championship Berlin 2024 finals weekend</p>
+                            <button class="custom-btn-small">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>About Valorant Hub</h4>
+                    <p>Your one-stop destination for all Valorant related content, news, and updates.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
