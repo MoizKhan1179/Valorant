@@ -215,3 +215,49 @@ body {
     color: var(--valorant-red);
     transform: translateY(-3px);
 }
+
+
+/* agent section */
+body {
+    background-color: #1e1e2f; /* Change this to match the background of the Valorant page */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.agents-section {
+    padding: 50px 0;
+}
+
+.agent-card {
+    background-color: #292b2f; /* Card background color */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.agent-card:hover {
+    transform: scale(1.05); /* Scale animation on hover */
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.agent-content {
+    padding: 20px;
+}
+
+.custom-btn-small {
+    background-color: #ff4655; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-btn-small:hover {
+    background-color: #e03e4f; /* Darker shade on hover */
+}

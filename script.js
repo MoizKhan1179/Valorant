@@ -66,3 +66,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// agent section
+
+
+// You can add any JavaScript functionality here as needed
+document.addEventListener('DOMContentLoaded', function() {
+    // Example: Add event listeners to buttons if needed
+    const buttons = document.querySelectorAll('.custom-btn-small');
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            alert('More information about the agent will be displayed here.');
+        });
+    });
+});
+
