@@ -261,3 +261,24 @@ body {
 .custom-btn-small:hover {
     background-color: #e03e4f; /* Darker shade on hover */
 }
+
+
+/* hover effect maps */
+
+.hover-effect {
+    transition: transform 0.2s ease-in-out;
+}
+.hover-effect:hover {
+    transform: scale(1.1);
+}
+
+/* hover article in map */
+
+.hover-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hover-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
